@@ -44,7 +44,7 @@ python main.py
 ## Reflection
 
 1. Both models got the trick question right.
-2. The flash model was nearly twice as slow despite receiving the same short prompt.
-3. Its total token count was far higher than input + output, hinting at hidden reasoning tokens.
-4. The lite model gave an equally clear answer, so the quality difference was smaller than I expected.
-5. Costs were tiny overall, but the flash model cost nearly 4x more than the lite variant.
+2. The flash model was slower but had almost the same performance.
+3. The ai used thinking tokens in non light version.
+4. The quality difference was smaller than I expected.
+5. Costs were tiny overall, but the flash model cost nearly 4x more than the lite one.
