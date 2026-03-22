@@ -21,7 +21,7 @@ PROMPT = (
     "Explain your reasoning step by step."
 )
 
-# Pricing (paid tier, per 1M tokens) — March 2026
+# Pricing (paid tier, per 1M tokens) — As Of March 2026
 COST_PER_1M = {
     "gemini-3-flash-preview":        {"input": 0.50, "output": 3.00},
     "gemini-3.1-flash-lite-preview": {"input": 0.25, "output": 1.50},
